@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>携程网</title>
+
+    <!-- normalize.css：用于初始化 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- 引入淘宝移动端适配库 flexible 用于rem布局 -->
+    <!-- 页面的设计稿宽度是750px，其它宽度由rem自行适配 -->
+    <script src="./js/flexible/index.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 顶部搜索 -->
+    <header class="search_warp">
+        <div class="search">搜索:目的地/酒店/景点/航班号</div>
+        <a href="javascript:;" class="user">我 的</a>
+    </header>
+    <!-- 焦点图 -->
+    <div class="focus">
+        <img src="./upload/banner.jpg" alt="">
+    </div>
+    <!-- 局部导航  -->
+    <ul class="loacl_nav">
+        <li>
+            <a href="javascript:;" title="攻略·景点">
+                <span class="icon-local-scenic"></span>
+                <span>攻略·景点</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="门票·玩乐">
+                <span class="icon-local-tickets"></span>
+                <span>门票·玩乐</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="美食林">
+                <span class="icon-local-food"></span>
+                <span>美食林</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="周边游">
+                <span class="icon-local-around"></span>
+                <span>周边游</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="一日游">
+                <span class="icon-local-oneday"></span>
+                <span>一日游</span>
+            </a>
+        </li>
+    </ul>
+    <!-- 主导航 -->
+    <nav class="nav">
+        <div class="nav_common">
+            <div class="nav_items nav_items_times nav-items-hotel">
+                <a href="javascript:;">酒店</a>
+            </div>
+            <div class="nav_items nav-items-minsu">
+                <a href="javascript:;">名宿·客栈</a>
+            </div>
+            <div class="nav_items nav_items_double nav-items-hot">
+                <a href="javascript:;">特价·爆款</a>
+            </div>
+        </div>
+        <div class="nav_common">
+            <div class="nav_items nav_items_times nav-items-flight">
+                <a href="javascript:;">机票</a>
+            </div>
+            <div class="nav_items nav-items-train">
+                <a href="javascript:;">火车票</a>
+            </div>
+            <div class="nav_items">
+                <a href="javascript:;">汽车·船票</a>
+            </div>
+            <div class="nav_items">
+                <a href="javascript:;">专车·租车</a>
+            </div>
+        </div>
+        <div class="nav_common">
+            <div class="nav_items nav_items_times nav-items-travel">
+                <a href="javascript:;">旅游</a>
+            </div>
+            <div class="nav_items nav-items-dingzhi">
+                <a href="javascript:;">高铁游</a>
+            </div>
+            <div class="nav_items">
+                <a href="javascript:;">邮轮游</a>
+            </div>
+            <div class="nav_items">
+                <a href="javascript:;">定制游</a>
+            </div>
+        </div>
+    </nav>
+    <!-- 侧导航 -->
+    <ul class="subnav_entry">
+        <li>
+            <a href="javascript:;" title="自由行">
+                <span class="subnav-icon-travel"></span>
+                <span>自由行</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="WiFi电话卡">
+                <span class="subnav-icon-wifi"></span>
+                <span>WiFi电话卡</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="保险·签证">
+                <span class="subnav-icon-insurance"></span>
+                <span>保险·签证</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="换钞·购物">
+                <span class="subnav-icon-shopping"></span>
+                <span>换钞·购物</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="当地向导">
+                <span class="subnav-icon-guide"></span>
+                <span>当地向导</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="特价机票">
+                <span class="subnav-icon-flight"></span>
+                <span>特价机票</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="礼品卡">
+                <span class="subnav-icon-card"></span>
+                <span>礼品卡</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="申卡·借钱">
+                <span class="subnav-icon-creditCard"></span>
+                <span>申卡·借钱</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="旅拍">
+                <span class="subnav-icon-photograph"></span>
+                <span>旅拍</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" title="更多">
+                <span class="subnav-icon-more"></span>
+                <span>更多</span>
+            </a>
+        </li>
+    </ul>
+    <!-- 热门活动 -->
+    <div class="sales-box">
+        <div class="sales_hd">
+            <h2>热门活动</h2>
+            <a href="javascript:;" class="sales_more">获取更多福利</a>
+        </div>
+        <div class="sales_bd">
+            <div class="row">
+                <a href="javascript:;">
+                    <img src="./upload/sales01.jpg" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./upload/sales02.jpg" alt="">
+                </a>
+            </div>
+            <div class="row">
+                <a href="javascript:;">
+                    <img src="./upload/sales03.png" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./upload/sales04.jpg" alt="">
+                </a>
+            </div>
+            <div class="row">
+                <a href="javascript:;">
+                    <img src="./upload/sales05.jpg" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./upload/sales06.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 底部模块 -->
+    <footer class="tool-box">
+        <div class="tool_con">
+            <a href="javascript:;" title="电话预约">
+                <span class="tool-icon-phone"></span>
+                <span>电话预约</span>
+            </a>
+            <a href="javascript:;" title="下载客户端">
+                <span class="tool-icon-download"></span>
+                <span>下载客户端</span>
+            </a>
+            <a href="javascript:;" title="我的">
+                <span class="tool-icon-user"></span>
+                <span>我的</span>
+            </a>
+        </div>
+        <div class="tool-ver">
+            <a href="javascript:;">网站地图</a>
+            <span>|</span>
+            <a href="javascript:;" class="tool_language">Language</a>
+            <span>|</span>
+            <a href="javascript:;">电脑版</a>
+        </div>
+        <p>©2020携程旅行｜沪ICP备08023580号</p>
+    </footer>
+</body>
+
+</html>
